@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07CA3A3CAB1392A8E3D13433 /* TrainingEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B4BD36994960E242670C5A /* TrainingEngine.swift */; };
+		5045F07558E848BF85149353 /* FlightModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FACEFAADA01C21F751BC693 /* FlightModelTests.swift */; };
+		6818A47EE8F88C92C6CCBDBD /* ARFlightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0679053933106070AF40D41E /* ARFlightView.swift */; };
+		73C5DB002FBFDA5F9C6BF8A3 /* PlutoDrone.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 23483275EAD8F3BCB1A54928 /* PlutoDrone.usdz */; };
+		7A847CC5D191D0C6682C7654 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = CBE2F201B67EDA210F3BEE81 /* .gitkeep */; };
+		84FC9A82CF164BAC6855F116 /* PlutoARFlightSimApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B080513E6CC6ABD4505E99A /* PlutoARFlightSimApp.swift */; };
+		920C362EC6B397B31FD498AE /* Catalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D4898D7839C840A2FF2E29 /* Catalog.swift */; };
+		D629E8D3493D1CAB857B2B81 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD22CBAE0DB3F3A92B88451 /* Config.swift */; };
+		E6D84E1712B276A92C762F81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E6134019F9BA1352876B69 /* ContentView.swift */; };
+		F758AE7B580ADA5C26B4A1D5 /* FlightModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDAE3051B41634469FEC569 /* FlightModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BABD158EA74F4FF71A634C09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05019C164228969F9255E6F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CD66510C72B69D34A500069;
+			remoteInfo = PlutoARFlightSim;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00DB59B2BF38865FB17880A7 /* PlutoARFlightSimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlutoARFlightSimTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0679053933106070AF40D41E /* ARFlightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARFlightView.swift; sourceTree = "<group>"; };
+		23483275EAD8F3BCB1A54928 /* PlutoDrone.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = PlutoDrone.usdz; sourceTree = "<group>"; };
+		25B4BD36994960E242670C5A /* TrainingEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingEngine.swift; sourceTree = "<group>"; };
+		2FACEFAADA01C21F751BC693 /* FlightModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightModelTests.swift; sourceTree = "<group>"; };
+		4BDAE3051B41634469FEC569 /* FlightModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightModel.swift; sourceTree = "<group>"; };
+		4CD22CBAE0DB3F3A92B88451 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		5B080513E6CC6ABD4505E99A /* PlutoARFlightSimApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlutoARFlightSimApp.swift; sourceTree = "<group>"; };
+		63E6134019F9BA1352876B69 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8723B8AD5B939908A4966305 /* PlutoARFlightSim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlutoARFlightSim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBE2F201B67EDA210F3BEE81 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		D3D4898D7839C840A2FF2E29 /* Catalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catalog.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0DD4853AA727367572820C88 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2FACEFAADA01C21F751BC693 /* FlightModelTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		3BC066AC761AE59BE80428D5 = {
+			isa = PBXGroup;
+			children = (
+				5E999AD401F176CB6F88E8C4 /* PlutoARFlightSim */,
+				F6529930343E9D48262EFFEB /* Resources */,
+				0DD4853AA727367572820C88 /* Tests */,
+				EBCD2265EC682C189F1A6808 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E999AD401F176CB6F88E8C4 /* PlutoARFlightSim */ = {
+			isa = PBXGroup;
+			children = (
+				0679053933106070AF40D41E /* ARFlightView.swift */,
+				D3D4898D7839C840A2FF2E29 /* Catalog.swift */,
+				4CD22CBAE0DB3F3A92B88451 /* Config.swift */,
+				63E6134019F9BA1352876B69 /* ContentView.swift */,
+				4BDAE3051B41634469FEC569 /* FlightModel.swift */,
+				5B080513E6CC6ABD4505E99A /* PlutoARFlightSimApp.swift */,
+				25B4BD36994960E242670C5A /* TrainingEngine.swift */,
+			);
+			path = PlutoARFlightSim;
+			sourceTree = "<group>";
+		};
+		EBCD2265EC682C189F1A6808 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8723B8AD5B939908A4966305 /* PlutoARFlightSim.app */,
+				00DB59B2BF38865FB17880A7 /* PlutoARFlightSimTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6529930343E9D48262EFFEB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CBE2F201B67EDA210F3BEE81 /* .gitkeep */,
+				23483275EAD8F3BCB1A54928 /* PlutoDrone.usdz */,
+			);
+			name = Resources;
+			path = PlutoARFlightSim/Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C315AE48A8B9CB841BB9CC6 /* PlutoARFlightSimTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25A5CD6418502E5E95950A9B /* Build configuration list for PBXNativeTarget "PlutoARFlightSimTests" */;
+			buildPhases = (
+				899C67F6A533227F49F5C370 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAFA55A6DA30182C0C2DB27C /* PBXTargetDependency */,
+			);
+			name = PlutoARFlightSimTests;
+			packageProductDependencies = (
+			);
+			productName = PlutoARFlightSimTests;
+			productReference = 00DB59B2BF38865FB17880A7 /* PlutoARFlightSimTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8CD66510C72B69D34A500069 /* PlutoARFlightSim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76AA0971DB21477E155ABD7B /* Build configuration list for PBXNativeTarget "PlutoARFlightSim" */;
+			buildPhases = (
+				F5E5083150063F88093A4F7D /* Sources */,
+				51599FF8FA3DCDC45403C9BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlutoARFlightSim;
+			packageProductDependencies = (
+			);
+			productName = PlutoARFlightSim;
+			productReference = 8723B8AD5B939908A4966305 /* PlutoARFlightSim.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05019C164228969F9255E6F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8CD66510C72B69D34A500069 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C5B927C1E77317795FC13A24 /* Build configuration list for PBXProject "PlutoARFlightSim" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 3BC066AC761AE59BE80428D5;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EBCD2265EC682C189F1A6808 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CD66510C72B69D34A500069 /* PlutoARFlightSim */,
+				7C315AE48A8B9CB841BB9CC6 /* PlutoARFlightSimTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51599FF8FA3DCDC45403C9BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A847CC5D191D0C6682C7654 /* .gitkeep in Resources */,
+				73C5DB002FBFDA5F9C6BF8A3 /* PlutoDrone.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		899C67F6A533227F49F5C370 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5045F07558E848BF85149353 /* FlightModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E5083150063F88093A4F7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6818A47EE8F88C92C6CCBDBD /* ARFlightView.swift in Sources */,
+				920C362EC6B397B31FD498AE /* Catalog.swift in Sources */,
+				D629E8D3493D1CAB857B2B81 /* Config.swift in Sources */,
+				E6D84E1712B276A92C762F81 /* ContentView.swift in Sources */,
+				F758AE7B580ADA5C26B4A1D5 /* FlightModel.swift in Sources */,
+				84FC9A82CF164BAC6855F116 /* PlutoARFlightSimApp.swift in Sources */,
+				07CA3A3CAB1392A8E3D13433 /* TrainingEngine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAFA55A6DA30182C0C2DB27C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CD66510C72B69D34A500069 /* PlutoARFlightSim */;
+			targetProxy = BABD158EA74F4FF71A634C09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		128A3651E0D1A62A6A9AEF85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		515647904188EA633FB5EA52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = R8T28P4RG6;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vithika.PlutoARFlightSimTests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlutoARFlightSim.app/PlutoARFlightSim";
+			};
+			name = Release;
+		};
+		56E59CB5ADEC05480E1B1580 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = R8T28P4RG6;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vithika.PlutoARFlightSimTests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlutoARFlightSim.app/PlutoARFlightSim";
+			};
+			name = Debug;
+		};
+		8BF9B331E938105A2C9B42DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8T28P4RG6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pluto AR Sim";
+				INFOPLIST_KEY_NSCameraUsageDescription = "The camera shows the virtual Pluto drone in your real room.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vithika.PlutoARFlightSim;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BE30FFF1559FB8633604FD9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EA50650A6F747EEA24850DF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8T28P4RG6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pluto AR Sim";
+				INFOPLIST_KEY_NSCameraUsageDescription = "The camera shows the virtual Pluto drone in your real room.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vithika.PlutoARFlightSim;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25A5CD6418502E5E95950A9B /* Build configuration list for PBXNativeTarget "PlutoARFlightSimTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56E59CB5ADEC05480E1B1580 /* Debug */,
+				515647904188EA633FB5EA52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		76AA0971DB21477E155ABD7B /* Build configuration list for PBXNativeTarget "PlutoARFlightSim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BF9B331E938105A2C9B42DC /* Debug */,
+				EA50650A6F747EEA24850DF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C5B927C1E77317795FC13A24 /* Build configuration list for PBXProject "PlutoARFlightSim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE30FFF1559FB8633604FD9C /* Debug */,
+				128A3651E0D1A62A6A9AEF85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05019C164228969F9255E6F1 /* Project object */;
+}
